@@ -22,5 +22,21 @@ body {
     max-width: 50%;
 }
 button {
-    max-width: 10rem;
+    min-width: 10rem;
+    border-radius: 1.5rem;
+    border: none;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+input {
+    border-radius: 1.5rem;
+    min-width: 20rem;
+    border: 1px solid grey;
+    text-align: left;
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    margin-bottom: 5rem;
 }
