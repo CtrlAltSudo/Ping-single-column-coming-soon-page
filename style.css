@@ -1,11 +1,16 @@
+* {
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Manrope', sans-serif;
+}
+
 body {
     margin: 0;
     box-sizing: border-box;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 #container {
     display: flex;
@@ -15,7 +20,15 @@ body {
     text-align: center;
 }
 
+h1 span{
+    color:  hsl(0, 0%, 59%);
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
 .logo {
+    margin-top: 5rem;
     max-width: 10%;
 }
 .db {
@@ -23,17 +36,22 @@ body {
 }
 button {
     min-width: 10rem;
-    border-radius: 1.5rem;
+    border-radius: 2rem;
     border: none;
     margin-left: 2rem;
-    padding: 1rem;
-}
+    padding: 1rem 5rem 1rem 5rem;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    cursor: pointer;
+} 
 input {
-    border-radius: 1.5rem;
-    min-width: 20rem;
-    border: 1px solid grey;
+    border-radius: 2rem;
+    min-width: 25rem;
+    border: 2px solid hsl(223, 100%, 88%);
     text-align: left;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 2rem;
+    font-size: 1rem;
+    color: hsl(223, 100%, 88%);
 }
 
 form {
