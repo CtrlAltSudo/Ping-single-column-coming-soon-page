@@ -35,6 +35,7 @@ p {
     font-size: 1.1rem;
     color:hsl(0, 0%, 59%);
     font-weight: 100;
+    padding-right: 1.5rem;
 }
 .copyRight {
     font-size: 0.7rem;
@@ -61,22 +62,28 @@ button {
 input {
     border-radius: 2rem;
     min-width: 22rem;
-    border: 2px solid hsl(223, 100%, 88%);
+    border: 2px solid hsl(223, 92%, 77%);
     text-align: left;
-    padding: 1rem 1.2rem 1rem 1.2rem;
+    padding: 1.1rem 1.2rem 1rem 1.6rem;
     font-size: 15px;
     color: hsl(223, 100%, 88%);
 }
 input:focus{
     color: black;
 }
-input:focus-visible {
-
-}
-
 form {
     display: flex;
     margin-bottom: 5rem;
+    position: relative;
+}
+.emailErrMsg {
+    color: red;
+    visibility: hidden;
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    font-weight: 100;
+    font-size: 0.8rem;
 }
 #socials .fa-brands {
     border: 1px solid  hsl(223, 100%, 88%);
